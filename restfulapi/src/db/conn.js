@@ -1,10 +1,6 @@
 const mongoose = require("mongoose")
-mongoose.connect("mongodb//locolhost:27017/students-api",{
-    useCreateIndex:true,
-    useNewUrlParser:true,
-    useUnifiedTopology:true,
-}).then(() => {
+mongoose.connect("mongodb://127.0.0.1:27017/students-api").then(() => {
     console.log("connection sucessful")
 }).catch((e)=>{
-    console.log("no connection")
+    console.log(e)
 })

@@ -3,6 +3,7 @@ const exp=require('express')
  //const router=exp.Router()
 
 //const urlCheck=require('./v')
+app.set()
 app.get('/abc',(req,res)=>
  {
     res.end("hello")})

@@ -10,7 +10,8 @@ app.get('/api/v1/tours/:id',(req,res)=>{
     res.status(200).json({msg:"sucess",
 data:{
     tour
-}})})
+}})
+})
 app.get('/api/v1/users',(req,res)=>{
     //res.status(500).json({
       //  msg:"not yet updated"

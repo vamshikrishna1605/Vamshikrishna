@@ -20,8 +20,7 @@ const studentschema = new mongoose.Schema({
         },
         phone:{
             type:Number,
-            min:10,
-            max:10,
+            
             required:true,
             unique:true
         },
